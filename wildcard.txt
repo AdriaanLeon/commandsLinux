@@ -1,0 +1,10 @@
+let's use the command to append to file
+'echo let's use the command to append to file' | tee -a wildcard.txt'
+
+another command for append to file
+echo "hello world" >> wildcard.txt
+
+another command is:
+echo "this another way" | awk {print $0 >> "wildcard.txt"}
+
+sed -i '$ a\This line is appended using sed.' wildcard.txt

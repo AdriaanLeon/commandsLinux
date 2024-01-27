@@ -1,0 +1,4 @@
+ls -la --time-style=full-iso 
+ls --full-time
+ls --full-time -a
+ls *.pdf
